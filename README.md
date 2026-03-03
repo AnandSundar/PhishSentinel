@@ -11,8 +11,6 @@
 
 **PhishSentinel autonomously analyzes suspicious emails, scores their threat level from 0–100, extracts attack indicators, and presents findings in a live dashboard — in under 10 seconds.**
 
-[🚀 Live Demo](YOUR_DEMO_URL) · [📖 Docs](#-documentation) · [🐛 Report Bug](https://github.com/YOUR_USERNAME/phishsentinel/issues) · [💡 Request Feature](https://github.com/YOUR_USERNAME/phishsentinel/issues)
-
 </div>
 
 ---
@@ -25,7 +23,7 @@ Phishing is the **#1 cyber threat of 2026**, costing businesses over $3.5 billio
 
 What makes PhishSentinel different from basic spam filters is that it uses an **AI agent** — a program that reasons step-by-step like a human security analyst — instead of simple keyword matching. While traditional tools look for words like "urgent" or "click here," PhishSentinel understands context, analyzes email headers (the behind-the-scenes routing information), detects visual tricks like lookalike domain names, and weighs 12 different risk factors to produce a reliable threat score.
 
-> 💼 **For Hiring Managers:** PhishSentinel demonstrates production-level skills in AI agent design, cybersecurity tooling, and full-stack Python development. It is the kind of tool real SOC (Security Operations Center) teams request but rarely have. The architecture mirrors enterprise threat intelligence platforms costing tens of thousands of dollars per year.
+> 💼 **For Managers:** PhishSentinel demonstrates production-level skills in AI agent design, cybersecurity tooling, and full-stack Python development. It is the kind of tool real SOC (Security Operations Center) teams request but rarely have. The architecture mirrors enterprise threat intelligence platforms costing tens of thousands of dollars per year.
 
 ---
 
@@ -200,7 +198,7 @@ Before you begin, ensure you have:
 
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/YOUR_USERNAME/phishsentinel.git
+git clone https://github.com/AnandSundar/phishsentinel.git
 cd phishsentinel
 
 # Step 2: Create a virtual environment
@@ -221,18 +219,6 @@ streamlit run app.py
 **The app will open at [http://localhost:8501](http://localhost:8501) in your browser.**
 
 > 💡 **Pro Tip:** Test the app immediately using the included sample email: `samples/sample_phish.eml`
-
-### Deploy to Streamlit Cloud (Free)
-
-Want a public URL to share with stakeholders? Deploy to Streamlit Cloud in minutes:
-
-1. **Push to GitHub**: Ensure your code is in a public or private GitHub repository
-2. **Sign up**: Create a free account at [share.streamlit.io](https://share.streamlit.io)
-3. **Connect repo**: Click "New app" and select your `phishsentinel` repository
-4. **Set secrets**: In the app settings, add your `OPENAI_API_KEY` as a secret (never commit this to Git!)
-5. **Deploy**: Streamlit Cloud will automatically detect `app.py` and launch your dashboard
-
-Your app will be live at `https://your-app-name.streamlit.app` — perfect for demos and portfolio links.
 
 ---
 
@@ -305,7 +291,7 @@ According to [OpenAI's API data usage policy](https://openai.com/policies/api-da
 
 ---
 
-## 💼 Why This Project Matters (For Hiring Managers)
+## 💼 Why This Project Matters
 
 ### The Real-World Problem
 
@@ -412,9 +398,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 📬 Contact
 
-- **GitHub**: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- **LinkedIn**: [Your Name](https://linkedin.com/in/YOUR_PROFILE)
-- **Email**: your.email@example.com
+- **GitHub**: [@AnandSundar](https://github.com/AnandSundar)
+- **LinkedIn**: [Anand Sundar](https://linkedin.com/in/AnandSundar96)
+- **Email**: anandsundar96@gmail.com
 
 ---
 
