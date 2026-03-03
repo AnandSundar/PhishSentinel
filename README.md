@@ -15,6 +15,9 @@
 
 ---
 
+<img width="1620" height="911" alt="image" src="https://github.com/user-attachments/assets/65a660cc-f7ab-4237-82b8-2ddaf36286db" />
+
+
 ## 🎯 What is This?
 
 **PhishSentinel is an intelligent security tool that detects phishing emails** — fake emails designed to trick you into giving up passwords, clicking dangerous links, or sending money to scammers. Think of it as a digital detective that reads every suspicious email and tells you exactly how dangerous it is.
