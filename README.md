@@ -168,19 +168,27 @@ THREAT SCORE LEGEND
 
 > The main dashboard showing a Plotly gauge chart with threat score 87/100 (Critical), four metric cards, and a radar chart plotting all 12 indicator scores.
 
-![Threat Analysis Tab](docs/screenshots/threat_analysis.png)
+Threat Analysis Tab
+
+<img width="1232" height="887" alt="image" src="https://github.com/user-attachments/assets/8a90254a-7163-4eac-8762-ebbd86a4a841" />
+
 
 ### IOC Report Tab
 
 > The IOC (Indicator of Compromise) report tab showing extracted malicious URLs, sender IPs, and suspicious domains in a sortable table with CSV export.
 
-![IOC Report Tab](docs/screenshots/ioc_report.png)
+IOC Report Tab
+
+<img width="1301" height="748" alt="image" src="https://github.com/user-attachments/assets/9bebe4a7-e567-4f16-a137-3c315bfa7d05" />
+
 
 ### Analysis History Tab
 
 > The history tab showing the last 20 email analyses stored in SQLite, with timestamps, threat scores, and clickable rows to reload past results.
 
-![Analysis History Tab](docs/screenshots/history_tab.png)
+Analysis History Tab
+
+<img width="1306" height="843" alt="image" src="https://github.com/user-attachments/assets/8e19e093-cf01-4092-81a7-40a0cfe7c29e" />
 
 ---
 
