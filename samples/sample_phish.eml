@@ -1,0 +1,93 @@
+Delivered-To: victim@example.com
+Received: from mail.example.com (mail.example.com [192.168.1.1])
+	by mx.google.com with ESMTPS id abc12345.12.2024.01.15.10.30.00
+	for <victim@example.com>
+	(version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+	Mon, 15 Jan 2024 10:30:00 -0800 (PST)
+Received: from unknown (HELO suspicious-server.xyz) ([185.234.72.99])
+	by mail.example.com with ESMTP
+	15 Jan 2024 10:29:58 -0800
+Received: from localhost (unknown [10.0.0.1])
+	by localhost with SMTP id 12345
+	for <victim@example.com>; Mon, 15 Jan 2024 10:29:58 -0800
+Received: from User (unknown [unknown])
+	by localhost with SMTP
+	id 67890; Mon, 15 Jan 2024 10:29:58 -0800
+X-Originating-IP: [185.234.72.99]
+Authentication-Results: mx.google.com;
+	spf=fail (google.com: domain of security@paypaI.com does not designate 185.234.72.99 as permitted sender) smtp.mailfrom=security@paypaI.com;
+	dkim=fail header.d=paypaI.com header.s=selector1 header.b=AbCdEf;
+	dmarc=fail (p=REJECT sp=REJECT dis=QUARANTINE) header.from=paypaI.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=paypaI.com;
+	s=selector1; h=from:to:subject:date:message-id;
+	bh=ABC123DEF456GHI789JKL012MNO345PQR678STU901VWX234=;
+	b=AbCdEfGhIjKlMnOpQrStUvWxYz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+Message-ID: <12345.67890@suspicious-server.xyz>
+Date: Mon, 15 Jan 2024 10:29:58 -0800
+From: "PayPal Security Team" <security@paypaI.com>
+Reply-To: support@urgent-alert.net
+To: victim@example.com
+Subject: URGENT: Your Account Has Been Limited - Action Required
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+X-Mailer: Microsoft Outlook 16.0
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: 0 auto; }
+        .header { background-color: #003087; color: white; padding: 20px; text-align: center; }
+        .content { padding: 20px; }
+        .button { display: inline-block; background-color: #0070ba; color: white;
+                  padding: 15px 30px; text-decoration: none; border-radius: 5px; }
+        .footer { padding: 20px; text-align: center; font-size: 12px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PayPal</h1>
+        </div>
+        <div class="content">
+            <h2>Account Limited</h2>
+            <p>Dear Valued Customer,</p>
+            
+            <p><strong>Your account has been temporarily limited!</strong></p>
+            
+            <p>We have noticed some unusual activity on your PayPal account. 
+            For your protection, we have limited what you can do with your account 
+            until you verify your identity.</p>
+            
+            <p><strong>URGENT: Your account will be suspended in 24 hours</strong> if you 
+            do not verify your account information. This is your final warning.</p>
+            
+            <p>To restore full access to your account, please click the button below 
+            and verify your identity:</p>
+            
+            <p style="text-align: center;">
+                <a href="http://payраl.com/verify?id=123456789" class="button">
+                    Verify My Account Now
+                </a>
+            </p>
+            
+            <p>Or copy and paste this link into your browser:
+            http://192.168.1.100/verify?user=victim@example.com</p>
+            
+            <p>If you do not verify within 24 hours, your account will be permanently 
+            suspended and all funds will be frozen.</p>
+            
+            <p>Thank you for your cooperation.</p>
+            
+            <p>Sincerely,<br>
+            PayPal Security Team</p>
+        </div>
+        <div class="footer">
+            <p>This is an automated message. Please do not reply directly.</p>
+            <p>© 2024 PayPal Inc. All rights reserved.</p>
+            <p>PayPal, 2211 N 1st St, San Jose, CA 95131</p>
+        </div>
+    </div>
+</body>
+</html>
