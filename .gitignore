@@ -1,15 +1,36 @@
-# Python
+# Ignore ALL files in root directory
+/*
+
+# Ignore all files (including those without extension)
+*
+
+# Ignore specific folders
+agent/
+data/
+samples/
+utils/
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+
+# Ignore specific file types
+*.py
+*.pyc
+*.pyo
+*.pyd
 .Python
+*.so
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.example
+requirements.txt
+app.py
+
+# Python
 venv/
 env/
 .venv/
-
-# Environment
-.env
+*.egg-info/
 
 # IDE
 .vscode/
@@ -17,13 +38,15 @@ env/
 *.swp
 *.swo
 
-# Database
-*.db
-
 # OS
 .DS_Store
 Thumbs.db
 
 # Streamlit
 .streamlit/
-'.env'  
+
+# Keep .gitignore tracked
+!.gitignore
+
+# Keep README.md tracked
+!README.md
