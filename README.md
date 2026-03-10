@@ -11,6 +11,10 @@
 
 **PhishSentinel autonomously analyzes suspicious emails, scores their threat level from 0–100, extracts attack indicators, and presents findings in a live dashboard — in under 10 seconds.**
 
+
+<img width="1344" height="768" alt="image" src="https://github.com/user-attachments/assets/ab3e5f87-2306-4fbd-a6c1-4c1a8d611540" />
+
+
 </div>
 
 ---
